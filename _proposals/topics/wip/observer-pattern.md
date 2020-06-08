@@ -8,8 +8,10 @@
   - testing is easy
   - we still have a giant if block that we have to test
 - dispatch events when we get them aka emit events when we get them
-  - in node there is an `EventEmitter` and I wanted to use it
+  - dictionary dispatch. why, not wrap this in a class?
   - draw the early stages of the event emitter
+    - in node there is an `EventEmitter` object
+    - the more i drew out what i had, it started to look like it
 
 - this loosk familiar, flask does this
   - what else uses the observer pattern?
