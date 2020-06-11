@@ -1,5 +1,19 @@
 # Everyday Design Patterns: Observer Pattern
 
+## Todo
+
+- [ ] write blog post talking about how awesome it is in JS
+  - Python implementation from scratch; reference pyee
+- use pyee in busy beaver
+  - [ ] blog post about how PyEE will make asyncio useable
+  - use with FastAPI
+
+## Resources
+
+- https://www.one-tab.com/page/BxAfNa_3Q2qKpi_bRb0gzw
+
+## Notes
+
 - Slack webhook trying to do something when an event happens
 - first attempt is a bunch of if statements that check for a certain type of event and then do an action
   - this is okay, but is starts to become unmanageble
@@ -13,7 +27,9 @@
     - in node there is an `EventEmitter` object
     - the more i drew out what i had, it started to look like it
 
-- this loosk familiar, flask does this
+- in the real world... if this loosk familiar
+  - flask does this
+  - django signals use the observer pattern
   - what else uses the observer pattern?
     - DOM, UIs, PPB?
 
@@ -26,11 +42,14 @@
 - pyee
   - how to use classes
   - this is good because it can plug into event loops
-    - blog post about how PyEE will make asyncio useable
+    - asyncio, twisted
 
 - formal definition
-  - honestly even after learning it, i didn't see it until it all clicked
   - Pub/Sub
+  - honestly even after learning it, i didn't see it until it all clicked
+  - don't have to implement design patterns exactly how they are stated
+    - the point is to adapt them to fit your code
+    - it's the high-level concepts that help us communicate versus doing things exactly the way it's stated in literature
 
 - takeaway: if you like somethng about a library, find out why you like it
   - digging deeper and learning about these patterns will improve your design
