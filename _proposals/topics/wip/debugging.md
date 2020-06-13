@@ -5,6 +5,7 @@
 - [ ] https://www.udacity.com/course/software-debugging--cs259
 - [ ] https://classroom.udacity.com/courses/cs259
 - [ ] [Effective Debugging](https://www.amazon.com/gp/product/0134394798/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1)
+- [ ] http://www.mercedesbernard.com/blog/6-strategies-for-faster-debugging/
 
 ## Thoughts
 
